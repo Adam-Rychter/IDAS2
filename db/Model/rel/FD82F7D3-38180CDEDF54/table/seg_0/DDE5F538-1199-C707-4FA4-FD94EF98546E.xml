@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDE5F538-1199-C707-4FA4-FD94EF98546E" name="ISSUE_DATE">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>1E873979-32EB-A610-4CE2-D9A7000A4244</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="I_DATE_ID" id="F879311E-0684-D21E-C874-022042E2B097">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>11F3978F-5843-B715-8B1A-88F39003F420</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOWER" id="CFCCC74B-14F2-95A9-E4CA-8F4FEFD32492">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>A789402E-5CB5-9B09-D033-597C2FBA6577</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPPER" id="D70FBF6C-707E-8EA7-AA8A-D47D5A79BCA3">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>C2A8E2F7-46E0-690D-C39C-CABB31712238</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK_BOOK_ID" id="FAE15A21-F1C7-0929-2B57-317BF3588057">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>9BD26479-9C7B-2401-CDDF-3136D19A89FC</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57C4AC47-C40B-14E5-EB7E-5FEAD904EFFB" referredColumn="EB517A79-FE74-508D-F2C1-3392CF37D7F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9550A1D-8E18-3621-9F19-54D26D7C0B41" name="ISSUE_DATE_PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>8AD3B510-ACD6-C266-A06B-D936BE9342AE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F879311E-0684-D21E-C874-022042E2B097"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACBE98D4-E9BD-CD30-EE25-AF6DD2AF40BA" name="ISSUE_DATE__IDX">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4B992249-0195-2144-116D-0CAEA0A02AC0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FAE15A21-F1C7-0929-2B57-317BF3588057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72F8B858-5CAC-2E60-087B-ADC2E97CA29F" name="ISSUE_DATE_BOOK_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>4B992249-0195-2144-116D-0CAEA0A02AC0</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE15A21-F1C7-0929-2B57-317BF3588057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

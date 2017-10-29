@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E873979-32EB-A610-4CE2-D9A7000A4244" name="ISSUE_DATE">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 22:01:18 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="I_DATE_ID" id="11F3978F-5843-B715-8B1A-88F39003F420">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 22:01:25 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOWER" id="A789402E-5CB5-9B09-D033-597C2FBA6577">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 22:01:48 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPPER" id="C2A8E2F7-46E0-690D-C39C-CABB31712238">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 22:02:30 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOOK_ID" id="9BD26479-9C7B-2401-CDDF-3136D19A89FC">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 22:03:49 UTC</createdTime>
+<generatorID>4B992249-0195-2144-116D-0CAEA0A02AC0</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<referedAttribute>FCB4E5B3-59CF-282C-3EE2-6A00388F7739</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AD3B510-ACD6-C266-A06B-D936BE9342AE" name="ISSUE_DATE PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 22:01:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11F3978F-5843-B715-8B1A-88F39003F420</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

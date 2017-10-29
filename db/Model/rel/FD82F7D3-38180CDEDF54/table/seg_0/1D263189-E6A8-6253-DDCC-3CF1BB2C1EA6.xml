@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D263189-E6A8-6253-DDCC-3CF1BB2C1EA6" name="IMAGES">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>03FD0379-8FDC-BDF4-054E-29FC610F6783</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IMG_ID" id="BC63B361-C62D-2523-0AE8-5F28CC0688A3">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>575BC5CD-F956-855C-1465-11E6893FB552</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMG_NAME" id="9F764BD4-2814-6714-1377-7C02157DDB8F">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>986F4426-2CC1-393F-BDC5-E8B3CFA0A0F9</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGE" id="8182DA77-858A-03A5-7FDA-4DEBF387F7E6">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>31751F80-23D7-EB76-F889-5B599BB807A6</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSERT_DATE" id="BFF9AF14-1A15-A15B-2802-E8926E8F541A">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>728E6BCB-6D4F-CF9F-E722-6923622382A5</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="9EE52EAF-9257-CF3F-1713-73E805A1E02F">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>02106AF7-F186-48E6-A0FA-352F02CB84E5</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK_BOOK_ID" id="41B7CE24-36FD-114D-F09E-2B15B938C580">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>4606B4D5-EAA0-CACD-5FAA-37BF579A55CE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC480B66-1533-F305-B999-4B1A0E9DC039" referredColumn="EB517A79-FE74-508D-F2C1-3392CF37D7F3"/>
+</associations>
+</Column>
+<Column name="DECORATION_DEC_ID" id="6B792295-5A9C-1FBC-425C-CFDCDA1600AC">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>EA448FB3-4461-7120-B60C-9BC1F7CC4017</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B9A5A7-4247-5D8F-7460-425D5EBC6863" referredColumn="577C6AF4-9CCD-F1FD-8AE8-1D18D4BFDF40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDE355B5-3BE4-5FEA-782D-41C92C0CFA88" name="IMAGES_PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>9B289BB8-3530-409E-C15E-42D42309615F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC63B361-C62D-2523-0AE8-5F28CC0688A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA89EF3D-694B-0F83-7858-B7C7C677BB60" name="IMAGES_BOOK_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>FBE1B6FD-2179-11EE-D632-C6701ABB7D2B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B7CE24-36FD-114D-F09E-2B15B938C580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F69F3B8B-C5EE-F9F9-E7D3-C86A5723EEA7" name="IMAGES_DECORATION_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>4C4686FB-FD1F-71EF-024A-E56A5CA27F98</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B792295-5A9C-1FBC-425C-CFDCDA1600AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

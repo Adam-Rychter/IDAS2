@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="503A9B18-4473-4095-45A6-ACC827E06334" containerWithKeyObject="7FFCB195-AF17-E560-7F6C-7F2068EF046D" localFKIndex="46C2CCF0-8367-7958-9F01-C6E13D0590AD" name="BOOK_PRINTER_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>EB4E1A76-8FBE-3DDB-7878-89D9528A4ECB</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>PRINTER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A76AC791-C214-2E41-5DFF-348DB05A820F</referredTableID>
+<keyObject>68DBDB86-D2F6-BC4B-098E-033927A1063B</keyObject>
+<referredKeyID>68DBDB86-D2F6-BC4B-098E-033927A1063B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PRINTER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD9C7B08-9AFB-4498-7583-1A01C6A44589" name="PRINTER">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:36:28 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRINTER_ID" id="8E651BE0-FEC0-3566-ADE2-2C9CDDAA0FF2">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:36:34 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="F5F84081-7838-65B6-9504-5577F2B3E925">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:36:44 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA22E2E5-837D-3131-6840-461581771C9F" name="PRINTER PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:36:41 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E651BE0-FEC0-3566-ADE2-2C9CDDAA0FF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

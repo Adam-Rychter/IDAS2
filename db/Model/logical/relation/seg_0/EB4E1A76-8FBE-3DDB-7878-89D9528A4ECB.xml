@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_printed" directorySegmentName="seg_0" id="EB4E1A76-8FBE-3DDB-7878-89D9528A4ECB">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:48:19 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<sourcePk>DA22E2E5-837D-3131-6840-461581771C9F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD9C7B08-9AFB-4498-7583-1A01C6A44589</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4590417-1910-EA32-2FF7-FA5C2F404ECC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_book_images" directorySegmentName="seg_0" id="FBE1B6FD-2179-11EE-D632-C6701ABB7D2B">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:25:59 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<sourcePk>831F7D6A-53EE-F584-CD89-40AD645794D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B4590417-1910-EA32-2FF7-FA5C2F404ECC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03FD0379-8FDC-BDF4-054E-29FC610F6783</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

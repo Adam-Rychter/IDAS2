@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9B68009-9D40-E3A2-EAB6-BE294C0A677F" name="AUTHOR">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:12:27 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AUTHOR_ID" id="C663E76F-741A-AE43-134E-DC823F7E0141">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:13:08 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="CCCB5613-25F3-89CD-ACE8-789B6B792727">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:26:09 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M_NAME" id="BFE49727-BC80-B90D-543F-5428CDCEA0B6">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:26:40 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SURNAME" id="66148664-7F3B-5751-4345-4E0A3E24EC6A">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:27:04 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BORN" id="1BEFFF5F-4E4C-F30E-4D84-5FAA39FF5589">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:29:21 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIED" id="FF75A834-556C-C9CF-FF31-D781C8BA7A06">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:29:35 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

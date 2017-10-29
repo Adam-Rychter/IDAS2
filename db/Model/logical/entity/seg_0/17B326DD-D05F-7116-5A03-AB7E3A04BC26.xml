@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17B326DD-D05F-7116-5A03-AB7E3A04BC26" name="DECORATION">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:30:16 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DEC_ID" id="D0B1AFB4-81A2-31D0-5029-66AC3D2412B9">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:30:22 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="961C3CF4-B8E4-9BD9-644B-42CD3BB1BDBB">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:30:35 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION" id="AAD2973C-3CDC-6B99-7E74-B40A55EAF064">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:31:13 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAT_ID" id="C7468FBA-D214-B947-F668-5F49955DDD46">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:40:09 UTC</createdTime>
+<generatorID>68AAE8A1-BEC4-E250-B0C3-8581A1C83CF1</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>492082E1-0478-8DAF-194D-D463C928E1A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOOK_ID" id="30D86639-A5F1-7CCA-98DF-1B4BE2E0A598">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:46:33 UTC</createdTime>
+<generatorID>0295C3CD-4D29-9368-6242-E29974B9EDBE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FCB4E5B3-59CF-282C-3EE2-6A00388F7739</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WIDTH" id="491E0DBA-4DEC-B31F-B382-CE016DCB428A">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:51:37 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HEIGHT" id="1B92234A-32AB-EF18-2918-AD3B8F938792">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:54:44 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAGE_NUM" id="CB2B9422-D1D5-7F8E-9917-8068E85D2E8C">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:55:58 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EF1BC64-8167-C03F-58F7-CF3C2EAE4E42" name="DECORATION PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:30:31 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0B1AFB4-81A2-31D0-5029-66AC3D2412B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

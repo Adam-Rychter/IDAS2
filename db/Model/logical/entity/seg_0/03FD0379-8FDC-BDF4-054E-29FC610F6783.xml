@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03FD0379-8FDC-BDF4-054E-29FC610F6783" name="IMAGES">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:22:35 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IMG_ID" id="575BC5CD-F956-855C-1465-11E6893FB552">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:22:46 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMG_NAME" id="986F4426-2CC1-393F-BDC5-E8B3CFA0A0F9">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:23:12 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMAGE" id="31751F80-23D7-EB76-F889-5B599BB807A6">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:23:47 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSERT_DATE" id="728E6BCB-6D4F-CF9F-E722-6923622382A5">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:24:07 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE" id="02106AF7-F186-48E6-A0FA-352F02CB84E5">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:24:33 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOOK_ID" id="4606B4D5-EAA0-CACD-5FAA-37BF579A55CE">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:25:59 UTC</createdTime>
+<generatorID>FBE1B6FD-2179-11EE-D632-C6701ABB7D2B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FCB4E5B3-59CF-282C-3EE2-6A00388F7739</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEC_ID" id="EA448FB3-4461-7120-B60C-9BC1F7CC4017">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:26:59 UTC</createdTime>
+<generatorID>4C4686FB-FD1F-71EF-024A-E56A5CA27F98</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D0B1AFB4-81A2-31D0-5029-66AC3D2412B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B289BB8-3530-409E-C15E-42D42309615F" name="IMAGES PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:23:09 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="FD82F7D3-3DA4-BC55-A15D-38180CDEDF54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>575BC5CD-F956-855C-1465-11E6893FB552</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

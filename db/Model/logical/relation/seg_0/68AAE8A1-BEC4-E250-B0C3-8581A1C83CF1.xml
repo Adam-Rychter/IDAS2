@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_describes_dec" directorySegmentName="seg_0" id="68AAE8A1-BEC4-E250-B0C3-8581A1C83CF1">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:40:09 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<sourcePk>EA65101C-72BC-FD59-AD47-F79A7E08DEC4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3DC6242-E672-2CBE-B4AA-CB35206A8F42</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17B326DD-D05F-7116-5A03-AB7E3A04BC26</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

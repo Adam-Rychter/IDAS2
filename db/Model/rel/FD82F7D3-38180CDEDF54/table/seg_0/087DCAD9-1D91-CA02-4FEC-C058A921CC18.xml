@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="087DCAD9-1D91-CA02-4FEC-C058A921CC18" name="rel_composed_of">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DECORATION_DEC_ID" id="D09EAA17-1732-E6B0-0880-C59B2E352FBE">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A590CEB-2071-1709-3E1F-424557E17FA6" referredColumn="577C6AF4-9CCD-F1FD-8AE8-1D18D4BFDF40"/>
+</associations>
+</Column>
+<Column name="MOTIF_MOTIF_ID" id="904E660F-58E2-F20C-765D-D771920DED91">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0672AEB3-3354-66C7-0F7F-3BEB5BB64062" referredColumn="CAE0F6C2-3977-D5B0-2E18-5241F0F0E9AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF48976F-088F-439D-CE9E-FFD681E69A0E" name="rel_composed_of_PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09EAA17-1732-E6B0-0880-C59B2E352FBE"/>
+<colUsage columnID="904E660F-58E2-F20C-765D-D771920DED91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62E3D22A-94BE-2D67-FC3B-153DB240C291" name="rel_composed_of_DECORATION_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>E5C5C580-C375-7F93-464E-09C4C77380C2</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09EAA17-1732-E6B0-0880-C59B2E352FBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38D016C0-49FE-249F-56AA-3CB45267143F" name="rel_composed_of_MOTIF_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>E5C5C580-C375-7F93-464E-09C4C77380C2</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="904E660F-58E2-F20C-765D-D771920DED91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

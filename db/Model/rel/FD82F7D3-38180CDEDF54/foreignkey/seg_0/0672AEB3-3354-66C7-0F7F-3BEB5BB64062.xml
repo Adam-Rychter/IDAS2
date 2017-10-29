@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0672AEB3-3354-66C7-0F7F-3BEB5BB64062" containerWithKeyObject="087DCAD9-1D91-CA02-4FEC-C058A921CC18" localFKIndex="38D016C0-49FE-249F-56AA-3CB45267143F" name="rel_composed_of_MOTIF_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>E5C5C580-C375-7F93-464E-09C4C77380C2</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>MOTIF</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BE6C68A-36F2-2994-7945-EC2DC0A386D5</referredTableID>
+<keyObject>39A07827-73BB-D734-34CE-A40204B000A2</keyObject>
+<referredKeyID>39A07827-73BB-D734-34CE-A40204B000A2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MOTIF_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

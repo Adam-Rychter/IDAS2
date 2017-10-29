@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_book_was_written" directorySegmentName="seg_0" id="72DFC487-526A-A2B5-E675-EFD995025C71">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-10 21:37:39 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="52DC4D83-DF14-38DF-DF2E-CAEE59396D0A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B4590417-1910-EA32-2FF7-FA5C2F404ECC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D9B68009-9D40-E3A2-EAB6-BE294C0A677F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0643382D-2542-493E-7DCE-0ECBA2E8950C" name="rel_book_was_written">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOK_BOOK_ID" id="A68FE75D-8FE5-EAAC-7302-A0317C50A4E4">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB9D98AC-227A-2F70-5EAA-DA8BB2EBE15D" referredColumn="EB517A79-FE74-508D-F2C1-3392CF37D7F3"/>
+</associations>
+</Column>
+<Column name="AUTHOR_AUTHOR_ID1" id="D983209F-91E0-257F-37A3-1F0A67CA2AD8">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1AD8843-7C19-6810-093E-CE2BB9085E27" referredColumn="9396A974-7FCC-5F3B-766E-903B60C19E21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C40221B-0767-FCDD-435B-71717F132DE0" name="rel_book_was_written_PK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68FE75D-8FE5-EAAC-7302-A0317C50A4E4"/>
+<colUsage columnID="D983209F-91E0-257F-37A3-1F0A67CA2AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC83A983-1DDD-F035-E327-39ACF3B76265" name="rel_book_was_written_BOOK_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>72DFC487-526A-A2B5-E675-EFD995025C71</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68FE75D-8FE5-EAAC-7302-A0317C50A4E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04893ACD-0A8C-9561-3E06-A37AB677952B" name="rel_book_was_written_AUTHOR_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>72DFC487-526A-A2B5-E675-EFD995025C71</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D983209F-91E0-257F-37A3-1F0A67CA2AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

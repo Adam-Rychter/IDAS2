@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC480B66-1533-F305-B999-4B1A0E9DC039" containerWithKeyObject="1D263189-E6A8-6253-DDCC-3CF1BB2C1EA6" localFKIndex="AA89EF3D-694B-0F83-7858-B7C7C677BB60" name="IMAGES_BOOK_FK">
+<createdBy>Stryke404</createdBy>
+<createdTime>2017-10-29 21:29:05 UTC</createdTime>
+<generatorID>FBE1B6FD-2179-11EE-D632-C6701ABB7D2B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>BOOK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FFCB195-AF17-E560-7F6C-7F2068EF046D</referredTableID>
+<keyObject>01383910-A622-8B7D-0EBF-4AA49AFE4A5C</keyObject>
+<referredKeyID>01383910-A622-8B7D-0EBF-4AA49AFE4A5C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BOOK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
